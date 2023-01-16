@@ -1,0 +1,197 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-16T02:56:35.846Z",
+        "line": 6,
+        "name": "Selecting a Mobile App, adding to cart and checkout",
+        "description": "",
+        "id": "class-project-1;selecting-a-mobile-app--adding-to-cart-and-checkout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2946723000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Opening browser",
+            "match": {
+              "location": "stepdefinitions.CommonSteps.opening_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 117813500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter username",
+            "match": {
+              "location": "stepdefinitions.LoginPageSteps.enter_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 118588500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter password",
+            "match": {
+              "location": "stepdefinitions.LoginPageSteps.enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12140732000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click capcha",
+            "match": {
+              "location": "stepdefinitions.LoginPageSteps.click_capcha()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3722991300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click login",
+            "match": {
+              "location": "stepdefinitions.LoginPageSteps.click_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1074029000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click service tab",
+            "match": {
+              "location": "stepdefinitions.HomePageSteps.click_service_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1970618800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Order New Service",
+            "match": {
+              "location": "stepdefinitions.HomePageSteps.click_Order_New_Service()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 534232100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click Mobile Category",
+            "match": {
+              "location": "stepdefinitions.ShoppingPageSteps.click_Mobile_Category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 982982400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Select Mobile Application",
+            "match": {
+              "location": "stepdefinitions.ShoppingPageSteps.select_Mobile_Application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71881400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Add to cart and continue",
+            "match": {
+              "location": "stepdefinitions.ConfigurePageSteps.add_to_cart_and_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1598365400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate product is added",
+            "match": {
+              "location": "stepdefinitions.ReviewCheckoutSteps.validate_product_is_added()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 832233600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click checkout",
+            "match": {
+              "location": "stepdefinitions.CheckoutPageSteps.click_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9157444200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click complete order",
+            "match": {
+              "location": "stepdefinitions.CheckoutPageSteps.click_complete_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102862200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Close browser",
+            "match": {
+              "location": "stepdefinitions.CheckoutPageSteps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Class Project 1",
+    "description": "",
+    "id": "class-project-1",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/TestProject.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="35.645">
+    <testcase classname="Class Project 1" name="Selecting a Mobile App, adding to cart and checkout" time="35.451">
+        <system-out><![CDATA[Given Opening browser.......................................................passed
+And Enter username..........................................................passed
+And Enter password..........................................................passed
+When Click capcha...........................................................passed
+And Click login.............................................................passed
+Then Click service tab......................................................passed
+And Click Order New Service.................................................passed
+And Click Mobile Category...................................................passed
+And Select Mobile Application...............................................passed
+Then Add to cart and continue...............................................passed
+And Validate product is added...............................................passed
+Then Click checkout.........................................................passed
+And Click complete order....................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
